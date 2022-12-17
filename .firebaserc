@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "magnus-6b2fb": {
+      "hosting": {
+        "magnusApp": [
+          "magnus-6b2fb"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "magnus-6b2fb"
+  }
+}

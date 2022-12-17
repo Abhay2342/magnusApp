@@ -1,0 +1,39 @@
+.contact{
+    background-image: url('../../assets/img/rectangle-980-1@1x.png');
+    background-size: 100% 100%;
+  }
+  
+  .title2{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  /* identical to box height */
+  
+  
+  color: #CE992F;
+  }
+  .subs{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  width: 435px;
+  
+  color: #666666;
+  }
+  
+  .inp{
+    box-sizing: border-box;
+    width: 205px;
+    height: 71px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  }
+  #desc{
+    width: 450px;
+    margin-top: 20px;
+    height: 150px;
+  }
