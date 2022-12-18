@@ -6,13 +6,17 @@ import { CoursesComponent } from './courses/courses.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HomeComponent } from './home/home.component';
 import { InviteComponent } from './invite/invite.component';
+import { LegalDocumentComponent } from './legal-document/legal-document.component';
 import { LoginComponent } from './login/login.component';
 import { PaymentComponent } from './payment/payment.component';
 import { PricingComponent } from './pricing/pricing.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { ProfileDetailsComponent } from './profile-details/profile-details.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { SideMenuComponent } from './side-menu/side-menu.component';
+import { TreeViewComponent } from './tree-view/tree-view.component';
+import { VideosComponent } from './videos/videos.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -27,6 +31,10 @@ const routes: Routes = [
   {path: 'contact', component: ContactComponent},
   {path: 'invite', component: InviteComponent},
   {path: 'profile-details', component: ProfileDetailsComponent},
+  {path: 'tree-view', component: TreeViewComponent},
+  {path: 'videos', component: VideosComponent},
+  {path: 'privacy-policy', component: PrivacyPolicyComponent},
+  {path: 'legal-doc', component: LegalDocumentComponent},
 ];
 
 @NgModule({

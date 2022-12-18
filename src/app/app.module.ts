@@ -22,6 +22,10 @@ import { ContactComponent } from './contact/contact.component';
 import { InviteComponent } from './invite/invite.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileDetailsComponent } from './profile-details/profile-details.component';
+import { TreeViewComponent } from './tree-view/tree-view.component';
+import { VideosComponent } from './videos/videos.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { LegalDocumentComponent } from './legal-document/legal-document.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +44,11 @@ import { ProfileDetailsComponent } from './profile-details/profile-details.compo
     ContactComponent,
     InviteComponent,
     ProfileComponent,
-    ProfileDetailsComponent
+    ProfileDetailsComponent,
+    TreeViewComponent,
+    VideosComponent,
+    PrivacyPolicyComponent,
+    LegalDocumentComponent
   ],
   imports: [
     BrowserModule,

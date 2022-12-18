@@ -104,7 +104,7 @@
             "ssr": false,
             "browserTarget": "magnusApp:build:production",
             "firebaseProject": "magnus-6b2fb",
-            "firebaseHostingSite": "magnus-6b2fb"
+            "firebaseHostingSite": "magnus-angular"
           }
         }
       }
