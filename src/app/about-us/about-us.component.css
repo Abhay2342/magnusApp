@@ -45,11 +45,36 @@ padding-top: 4%;
 height: 427px;
 }
 
-.choose{
-    box-sizing: border-box;
-color: black;
-border: 2px solid #DDDDDD;
-border-radius: 5px;
-width: 338px;
-height: 71px;
+
+@media only screen and (min-width: 600px) {
+    #fmob{
+        height: 200px;
+    }
+    .choose{
+        box-sizing: border-box;
+    color: black;
+    border: 2px solid #DDDDDD;
+    border-radius: 5px;
+    width: 338px;
+    height: 71px;
+    }
+    }
+@media only screen and (max-width: 600px) {
+    #fmob2{
+        margin-top: 200px;
+    }
+    #accMob{
+        margin-top: 50px;
+    }
+    .box{
+        margin-top: 50px;
+    }
+    .choose{
+        box-sizing: border-box;
+    color: black;
+    border: 2px solid #DDDDDD;
+    border-radius: 5px;
+    width: 260px;
+    height: 50px;
+    }
 }
