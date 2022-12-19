@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as $ from 'jquery'
 @Component({
   selector: 'app-side-menu',
   templateUrl: './side-menu.component.html',
@@ -10,6 +10,101 @@ export class SideMenuComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    const id=localStorage.getItem('sideMenu')
+    console.log(id)
+    if(id=='m1'){
+      $('#m1').css('color', '#111111');
+      $('#m1').css('background', '#CE992F');
+  
+      $('#m2').css('color', '#BBBBBB');
+        $('#m2').css('background', '#1D1D1D');
+        $('#m3').css('color', '#BBBBBB');
+        $('#m3').css('background', '#1D1D1D');
+        $('#m4').css('color', '#BBBBBB');
+        $('#m4').css('background', '#1D1D1D');
+        $('#m5').css('color', '#BBBBBB');
+        $('#m5').css('background', '#1D1D1D');
+        $('#m6').css('color', '#BBBBBB');
+        $('#m6').css('background', '#1D1D1D');
+    }
+  
+    if(id=='m2'){
+      $('#m2').css('color', '#111111');
+      $('#m2').css('background', '#CE992F');
+  
+      $('#m1').css('color', '#BBBBBB');
+        $('#m1').css('background', '#1D1D1D');
+        $('#m3').css('color', '#BBBBBB');
+        $('#m3').css('background', '#1D1D1D');
+        $('#m4').css('color', '#BBBBBB');
+        $('#m4').css('background', '#1D1D1D');
+        $('#m5').css('color', '#BBBBBB');
+        $('#m5').css('background', '#1D1D1D');
+        $('#m6').css('color', '#BBBBBB');
+        $('#m6').css('background', '#1D1D1D');
+    }
+  
+    if(id=='m3'){
+      $('#m3').css('color', '#111111');
+      $('#m3').css('background', '#CE992F');
+  
+      $('#m2').css('color', '#BBBBBB');
+        $('#m2').css('background', '#1D1D1D');
+        $('#m1').css('color', '#BBBBBB');
+        $('#m1').css('background', '#1D1D1D');
+        $('#m4').css('color', '#BBBBBB');
+        $('#m4').css('background', '#1D1D1D');
+        $('#m5').css('color', '#BBBBBB');
+        $('#m5').css('background', '#1D1D1D');
+        $('#m6').css('color', '#BBBBBB');
+        $('#m6').css('background', '#1D1D1D');
+    }
+    if(id=='m4'){
+      $('#m4').css('color', '#111111');
+      $('#m4').css('background', '#CE992F');
+  
+      $('#m2').css('color', '#BBBBBB');
+        $('#m2').css('background', '#1D1D1D');
+        $('#m3').css('color', '#BBBBBB');
+        $('#m3').css('background', '#1D1D1D');
+        $('#m1').css('color', '#BBBBBB');
+        $('#m1').css('background', '#1D1D1D');
+        $('#m5').css('color', '#BBBBBB');
+        $('#m5').css('background', '#1D1D1D');
+        $('#m6').css('color', '#BBBBBB');
+        $('#m6').css('background', '#1D1D1D');
+    }
+  
+    if(id=='m5'){
+      $('#m5').css('color', '#111111');
+      $('#m5').css('background', '#CE992F');
+  
+      $('#m2').css('color', '#BBBBBB');
+        $('#m2').css('background', '#1D1D1D');
+        $('#m3').css('color', '#BBBBBB');
+        $('#m3').css('background', '#1D1D1D');
+        $('#m4').css('color', '#BBBBBB');
+        $('#m4').css('background', '#1D1D1D');
+        $('#m1').css('color', '#BBBBBB');
+        $('#m1').css('background', '#1D1D1D');
+        $('#m6').css('color', '#BBBBBB');
+        $('#m6').css('background', '#1D1D1D');
+    }
+    if(id=='m6'){
+      $('#m6').css('color', '#111111');
+      $('#m6').css('background', '#CE992F');
+  
+      $('#m2').css('color', '#BBBBBB');
+        $('#m2').css('background', '#1D1D1D');
+        $('#m3').css('color', '#BBBBBB');
+        $('#m3').css('background', '#1D1D1D');
+        $('#m4').css('color', '#BBBBBB');
+        $('#m4').css('background', '#1D1D1D');
+        $('#m5').css('color', '#BBBBBB');
+        $('#m5').css('background', '#1D1D1D');
+        $('#m1').css('color', '#BBBBBB');
+        $('#m1').css('background', '#1D1D1D');
+    }
   }
 
   closeNav() {
@@ -22,6 +117,10 @@ export class SideMenuComponent implements OnInit {
     // document.getElementById("mySidenav")!.style.width = "280px";
     document.getElementById("mySidenav")!.style.display = "block";
   
+}
+
+onclick(id:any){
+  localStorage.setItem('sideMenu',id)
 }
 
 }

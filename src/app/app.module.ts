@@ -26,6 +26,17 @@ import { TreeViewComponent } from './tree-view/tree-view.component';
 import { VideosComponent } from './videos/videos.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { LegalDocumentComponent } from './legal-document/legal-document.component';
+import { NetworkComponent } from './network/network.component';
+import { ShowTreeViewComponent } from './show-tree-view/show-tree-view.component';
+import { TreeView2Component } from './tree-view2/tree-view2.component';
+import { ApplyFlitersComponent } from './apply-fliters/apply-fliters.component';
+import { FilterResultComponent } from './filter-result/filter-result.component';
+import { EarningsComponent } from './earnings/earnings.component';
+import { TotalEarningsComponent } from './total-earnings/total-earnings.component';
+import { GenerateEpinComponent } from './generate-epin/generate-epin.component';
+import { TransferEpinComponent } from './transfer-epin/transfer-epin.component';
+import { SuccessEpinComponent } from './success-epin/success-epin.component';
+import { UpgradeSubscriptionComponent } from './upgrade-subscription/upgrade-subscription.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +59,18 @@ import { LegalDocumentComponent } from './legal-document/legal-document.componen
     TreeViewComponent,
     VideosComponent,
     PrivacyPolicyComponent,
-    LegalDocumentComponent
+    LegalDocumentComponent,
+    NetworkComponent,
+    ShowTreeViewComponent,
+    TreeView2Component,
+    ApplyFlitersComponent,
+    FilterResultComponent,
+    EarningsComponent,
+    TotalEarningsComponent,
+    GenerateEpinComponent,
+    TransferEpinComponent,
+    SuccessEpinComponent,
+    UpgradeSubscriptionComponent
   ],
   imports: [
     BrowserModule,

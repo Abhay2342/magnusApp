@@ -7,7 +7,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    display: block;
+    display: none;
     overflow-x: hidden;
     padding-top: 20px; /* 0.5 second transition effect to slide in the sidenav */
 }
@@ -19,6 +19,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 19px;
 line-height: 21px;
+background: #1D1D1D;
 /* identical to box height */
 
 

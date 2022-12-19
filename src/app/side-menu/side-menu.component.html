@@ -19,12 +19,12 @@
             <img src="../../assets/img/image-14@2x.png" alt="" class="img">
         </div>
         <div class="col">
-            <div class="menu" style="margin-top: 10px;">Dashboard</div>
-            <div class="menu m1">My Network</div>
-            <div class="menu m1">My Earnings</div>
-            <div class="menu m1">E-Pin</div>
-            <div class="menu m1">Upgrade</div>
-            <div class="menu m1">Logout</div>
+            <div class="menu" id="m1" style="margin-top: 10px;" routerLink="/profile-details" (click)="onclick('m1')">Dashboard</div>
+            <div class="menu m1" id="m2" routerLink="/network" (click)="onclick('m2')">My Network</div>
+            <div class="menu m1" id="m3" routerLink="/my-earnings" (click)="onclick('m3')">My Earnings</div>
+            <div class="menu m1" id="m4" routerLink="/generate-E-pin" (click)="onclick('m4')">E-Pin</div>
+            <div class="menu m1" id="m5" routerLink="/upgrade" (click)="onclick('m5')">Upgrade</div>
+            <div class="menu m1" id="m6" (click)="onclick('m6')">Logout</div>
         </div>
     </div>
 </div>
